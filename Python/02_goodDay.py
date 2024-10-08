@@ -3,9 +3,10 @@ def goodDay():
     print("Good Day")
 goodDay()
 
-def goodNight(name):
+def goodNight(name,ending):
 
     print("Good Ninght")
-    return "ok"
-a = goodNight("Yoge","Thank You")
+    print(ending)
+    return "Ok"
+a=goodNight("Yoge","Thank You")
 print(a)
